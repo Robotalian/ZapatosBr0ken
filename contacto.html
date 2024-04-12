@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto - Zapatos Artesanales</title>
+  <link rel="stylesheet" href="css/contacto.css">
+</head>
+<body>
+  <header>
+    <h1>Zapatos Artesanales</h1>
+    <nav>
+      <a href="history.html" class="btn">Nuestra Historia</a>
+      <a href="index.html">Inicio</a>
+    </nav>
+  </header>
+  <section class="contacto">
+    <h2>Contáctanos</h2>
+    <p>¡Estamos encantados de escuchar de ti! Ponte en contacto con nosotros a través de los siguientes medios:</p>
+    <ul>
+      <li>Teléfono: 123-456-789</li>
+      <li>Correo electrónico: info@zapatosBr0ken.com</li>
+      <li>Dirección: Calle Principal, Ciudad, País</li>
+    </ul>
+    <p>O si lo prefieres, completa el siguiente formulario y nos pondremos en contacto contigo lo antes posible:</p>
+    <form action="submit_form.php" method="post">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+  <footer>
+    <p>&copy; 2024 Zapatos Br0ken</p>
+  </footer>
+</body>
+</html>

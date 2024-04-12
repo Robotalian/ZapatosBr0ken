@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Color de fondo suave */
+  }
+  
+  header {
+    background-color: #333; /* Color de fondo oscuro para el encabezado */
+    color: #fff; /* Texto blanco para el encabezado */
+    text-align: center;
+    padding: 1rem 0;
+  }
+
+  nav {
+    margin-top: 10px;
+  }
+  
+  nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Estilos para logo */
+.logo {
+    display: block;
+    margin: 20px auto;
+    max-width: 200px; /* Ajustar el ancho máximo del logo según el diseño deseado */
+    height: auto;
+  }  
+
+  #productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .producto {
+    background-color: #fff; /* Color de fondo blanco */
+    border-radius: 8px; /* Esquinas redondeadas */
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    text-align: center;
+  }
+  
+  .producto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Esquinas redondeadas para la imagen */
+    margin-bottom: 10px;
+  }
+  /* Estilos para el contenedor del logo */
+#productos {
+    text-align: center; /* Centra el contenido horizontalmente */
+    position: relative; /* Establece posición relativa para posicionar el logo */
+  }
+  
+  .logo {
+    max-width: 20%; /* Garantiza que el logo no se estire más allá de su tamaño original */
+    height: 20%; /* Permite que la altura se ajuste automáticamente */
+  }
+  
+  #productos h2 {
+    position: absolute; /* Establece la posición absoluta para que el título se superponga sobre el logo */
+    top: 50px; /* Distancia del título con respecto al borde superior */
+    left: 50%; /* Centra el título horizontalmente */
+    transform: translateX(-50%); /* Alinea horizontalmente el título en el centro */
+    background-color: white; /* Fondo blanco para resaltar el título */
+    padding: 10px 20px; /* Añade espacio alrededor del título */
+  }
+  
+  
+  button {
+    background-color: #4CAF50; /* Color de fondo verde */
+    color: white; /* Texto blanco */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px; /* Esquinas redondeadas */
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #45a049; /* Color de fondo verde oscuro al pasar el mouse */
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  #carrito {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  #listaCarrito {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #listaCarrito li {
+    margin-bottom: 8px;
+  }  

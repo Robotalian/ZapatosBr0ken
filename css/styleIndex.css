@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Color de fondo suave */
+}
+
+header {
+    background-color: #333; /* Color de fondo oscuro para el encabezado */
+    color: #fff; /* Texto blanco para el encabezado */
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.logo {
+    display: block;
+    margin: 20px auto;
+    max-width: 200px; /* Ajustar el ancho máximo del logo según el diseño deseado */
+    height: auto;
+  }  
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+
+  nav a {
+    text-decoration: none; /* Elimina el subrayado predeterminado en los enlaces */
+    color: #333; /* Color del texto de los enlaces */
+    font-size: 18px; /* Tamaño de fuente */
+    margin: 0 10px; /* Espacio entre los enlaces */
+    padding: 5px 10px; /* Espacio dentro de los enlaces */
+    border-radius: 5px; /* Esquinas redondeadas */
+    background-color: #f8f8f8; /* Color de fondo suave para los enlaces */
+    transition: background-color 0.3s, color 0.3s; /* Transición suave al pasar el mouse */
+}
+
+nav a:hover {
+   background-color: #333; /* Color de fondo al pasar el mouse */
+   color: #fff; /* Cambia el color del texto al pasar el mouse */
+}
+
+
+#productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    text-align: center; /* Centra el contenido horizontalmente */
+    position: relative; /* Establece posición relativa para posicionar el logo */
+}
+
+.logo {
+    max-width: 20%; /* Garantiza que el logo no se estire más allá de su tamaño original */
+    height: 20%; /* Permite que la altura se ajuste automáticamente */
+    margin: 0 auto; /* Centra el logo horizontalmente */
+}
+
+#productos h2 {
+    position: absolute; /* Establece la posición absoluta para que el título se superponga sobre el logo */
+    top: 50px; /* Distancia del título con respecto al borde superior */
+    left: 50%; /* Centra el título horizontalmente */
+    transform: translateX(-50%); /* Alinea horizontalmente el título en el centro */
+    background-color: white; /* Fondo blanco para resaltar el título */
+    padding: 10px 20px; /* Añade espacio alrededor del título */
+}
+
+.features {
+    padding: 20px;
+    text-align: center;
+}
+
+.feature-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff; /* Color de fondo blanco */
+    border-radius: 8px; /* Esquinas redondeadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.feature-item img {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333; /* Color de fondo oscuro para el pie de página */
+    color: #fff; /* Texto blanco */
+}
